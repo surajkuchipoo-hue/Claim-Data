@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vardhman Claim Pkt. Data</title>
+    <meta
+      name="description"
+      content="E-commerce packet scanning workstation that syncs Customer Return and RTO scans to a single Google Sheet via Google Apps Script."
+    />
+    <meta property="og:title" content="Vardhman Claim Pkt. Data" />
+    <meta
+      property="og:description"
+      content="Scan Customer Return and RTO packets via barcode scanner or manual entry and sync directly to one Google Sheet using Apps Script."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+    <script>
+      try {
+        if (localStorage.getItem('vardhman_theme_v1') === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body class="bg-slate-100 text-slate-900 antialiased selection:bg-blue-100 selection:text-blue-900 dark:bg-[#090e1a] dark:text-slate-100 dark:selection:bg-blue-900 dark:selection:text-blue-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
